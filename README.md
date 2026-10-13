@@ -11,7 +11,7 @@ audio and picks one of the 88 piano keys (A0 to C8). It was trained on part of t
 **Current accuracy:** 92.6% on instruments it never saw in training (validation split),
 vs. 62.5% for a simple "loudest frequency" rule. Most remaining mistakes are the right
 note in the wrong octave. Version 1 is trained on clean studio notes only, so expect
-worse results on real-world recordings.
+worse results on real-world recordings. Training on the full set (289,205 examples) would provide greater accuracy.
 
 ## Setup
 
