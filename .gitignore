@@ -1,1 +1,8 @@
-
+.vibe-wise/
+.venv/
+data/
+__pycache__/
+checkpoints/*
+!checkpoints/best_model.pt
+*.log
+.DS_Store
